@@ -31,8 +31,6 @@ export  default class LoginScreen extends React.Component{
         <ScrollView>
             <View style = {styles.container}>
 
-                <Image source={require("../assets/complaint.png")}
-                 style={{marginTop: 40, alignSelf: "center", height: 100, width: 100}}/>
                 <View>
                     <Text style={styles.greeting}>Covid App</Text>
                 </View>
